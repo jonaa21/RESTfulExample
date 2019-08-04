@@ -2,10 +2,21 @@ package com.mkyong;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+import javax.persistence.*;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
+@Entity
+@Table
 public class Country {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+
+	@Column
 	String name;
+
+	@Column
 	String capital;
 
 	public Country() {
@@ -14,6 +25,14 @@ public class Country {
 	public Country(String name, String capital) {
 		this.name = name;
 		this.capital = capital;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getName() {

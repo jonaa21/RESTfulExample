@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [06/Feb/2019:19:32:27 -0300] "GET /RESTfulExample HTTP/1.1" 302 - http-bio-9080-exec-2 0
+0:0:0:0:0:0:0:1 - - [06/Feb/2019:19:32:27 -0300] "GET /RESTfulExample/ HTTP/1.1" 404 981 http-bio-9080-exec-3 16
+0:0:0:0:0:0:0:1 - - [06/Feb/2019:19:32:41 -0300] "GET /RESTfulExample/rest/json/metallica/get HTTP/1.1" 200 57 http-bio-9080-exec-4 232
+127.0.0.1 - - [06/Feb/2019:19:33:45 -0300] "GET /RESTfulExample/rest/json/metallica/get HTTP/1.1" 200 57 http-bio-9080-exec-7 0
+127.0.0.1 - - [06/Feb/2019:19:35:14 -0300] "GET /RESTfulExample/rest/json/countries/get HTTP/1.1" 404 967 http-bio-9080-exec-9 0
+127.0.0.1 - - [06/Feb/2019:19:35:55 -0300] "GET /RESTfulExample/rest/json/countries/get HTTP/1.1" 200 53 http-bio-9080-exec-1 297
+127.0.0.1 - - [06/Feb/2019:19:37:36 -0300] "GET /RESTfulExample/rest/json/countries/get HTTP/1.1" 200 53 http-bio-9080-exec-3 0
+127.0.0.1 - - [06/Feb/2019:19:37:46 -0300] "POST /RESTfulExample/rest/json/countries/post HTTP/1.1" 500 5635 http-bio-9080-exec-5 141
+127.0.0.1 - - [06/Feb/2019:19:38:09 -0300] "POST /RESTfulExample/rest/json/countries/post HTTP/1.1" 500 5635 http-bio-9080-exec-1 438
+0:0:0:0:0:0:0:1 - - [06/Feb/2019:19:38:32 -0300] "GET /RESTfulExample/rest/json/countries/get HTTP/1.1" 200 53 http-bio-9080-exec-2 52
+0:0:0:0:0:0:0:1 - - [06/Feb/2019:19:38:38 -0300] "GET /RESTfulExample/rest/json/countries/post HTTP/1.1" 405 1013 http-bio-9080-exec-4 8
+127.0.0.1 - - [06/Feb/2019:19:39:42 -0300] "POST /RESTfulExample/rest/json/countries/post HTTP/1.1" 201 72 http-bio-9080-exec-1 391
+127.0.0.1 - - [06/Feb/2019:19:47:44 -0300] "POST /RESTfulExample/rest/json/countries/post HTTP/1.1" 201 72 http-bio-9080-exec-3 0
+127.0.0.1 - - [06/Feb/2019:19:48:59 -0300] "POST /RESTfulExample/rest/json/countries/post HTTP/1.1" 201 72 http-bio-9080-exec-5 0
+127.0.0.1 - - [06/Feb/2019:19:48:59 -0300] "POST /RESTfulExample/rest/json/countries/post HTTP/1.1" 201 69 http-bio-9080-exec-7 0
